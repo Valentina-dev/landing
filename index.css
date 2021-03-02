@@ -1,0 +1,475 @@
+html, body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+header{
+    position: relative;
+}
+.header-content{
+    padding: 78px 200px;
+    z-index: 999;
+}
+.man-class{
+    position: relative;
+
+}
+.man {
+    position: absolute;
+    top: -50%;
+    width: 900px;
+    left: -340px;
+}
+.ellipse-3{
+    position: absolute;
+    left: 51%;
+    bottom: 75%;
+}
+.ellipse-4{
+    position: absolute;
+    top: 55%;
+    right: 93%;
+}
+.ellipse-5{
+    position: absolute;
+    left: 30%;
+    top: 79%;
+}
+.no-gutter{
+    margin-left: 0;
+    margin-right: 0;
+}
+.ellipse{
+    position: absolute;
+    left: -35px; /* Положение от правого края */
+    width: 222px;
+    top: -30px;
+}
+.el-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    z-index: 0;
+}
+.nav a{
+    padding-left: 80px;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    font-weight: bold;
+    z-index: 999;
+}
+.nav a:hover{
+    color: #5956E9;
+    text-decoration: none;
+}
+.download{
+    font-size:20px;    
+    text-align: center;
+    z-index: 3;
+}
+.download a{
+    padding: 28px 50px;
+    border-radius: 10px; /* Радиус скругления */
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    background: #FAB8C3; /* Цвет фона */
+    margin: auto 0;
+    font-weight: bold;
+    color: #5956E9;
+}
+.download a:hover{
+    text-decoration: none;
+}
+.main-text{
+    font-weight: bold;
+    font-size: 3.75rem;
+    line-height: 67px;
+    letter-spacing:0.2px;
+}
+.offer{
+    margin-top: 60px;
+    font-size: 24px;
+    line-height : 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.download-2{
+
+
+}.download-2{
+    display: inline-block;
+    padding: 28px 50px;
+    border-radius: 10px; /* Радиус скругления */
+    background: #5956E9; /* Цвет фона */
+    font-weight: bold;
+    color: white;
+    margin-top: 77px;
+    font-size:20px;
+}
+
+.download-2:hover{
+    text-decoration: none;
+}
+.how-it-works{
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 34px;
+}
+.create{
+    font-size: 24px;
+    letter-spacing:0.1px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #5956E9;
+}
+.discover{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size:60px;
+    line-height: 67px;
+    letter-spacing:0.2px;
+}
+.discover-info{
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+    color: #868686;
+}
+.experience{
+    margin: 0 auto;
+    background: linear-gradient(72.77deg, #EDEEF6 11.72%, rgba(237, 238, 246, 0) 98.52%);
+    border-radius: 50px;
+}
+.experience-title{
+    font-size: 60px;
+    line-height: 67px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+.experience-info{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #868686;
+}
+
+.platform-about{
+    color: #5956E9;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.platform-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 25px;
+}
+.save{
+    margin: 0 auto;
+    background: #FAB8C5;
+    border-radius: 50px;
+}
+.save-info{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #5956E9;
+}
+.save-download{
+    display: inline-block;
+    padding: 20px 100px;
+    text-align: center;
+    background: #5956E9;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #EDEEF6;
+    text-decoration: none;
+}
+.save-download:hover{
+    text-decoration: none;
+    color: #EDEEF6;
+}
+.fotter-info{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    margin-top: 95px;
+}
+.fotter-man{
+    /*position: absolute;*/
+    z-index: 0;
+    width: 500px;
+}
+.experience-thing{
+    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons{
+    position: absolute;
+    left: 55.5%;
+    padding-top: 7.9%;
+    z-index: 1;
+    transform: rotate(15.46deg);
+}
+.staff{
+    position: relative;
+}
+.ellipse-6{
+    position: absolute;
+    right: 17%;
+    bottom: 50px;
+
+}
+.ellipse-7{
+    position: absolute;
+    top: 55px;
+    right: 43%;
+
+}
+.ellipse-8{
+    position: absolute;
+    right: 9%;
+    top: 100px;
+}
+.ellipse-9{
+    position: absolute;
+    left: 35%;
+    top: 550px;
+}
+.save-thing{
+    position: relative;
+    padding: 100px 115px;
+}
+.platform-thing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hang-thing{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.el-mobile{
+    display: none;
+}
+.el-2-mobile{
+    display: none;
+}
+.logo{
+    width: 120px;
+}
+.mt-15{
+    margin-top: 15rem;
+}
+.platform-title{
+    font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 67px;
+/* or 112% */
+
+letter-spacing: 0.2px;
+}
+.hang-thing-mobile{
+    display: none;
+}
+@media (max-width: 769px){
+    .fotter-info{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        /* or 142% */
+
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+    .save-thing{
+        padding: 0;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+    .mt-15{
+        margin-top: 5rem;
+    }
+    .man{
+        display: none;
+    }
+    .mt-md-5{
+        margin-top: 5rem;
+    }
+    .main-text{
+        font-size: 40px;
+        text-align: center;
+    }
+    .offer{
+        text-align: center;
+    }
+    .text-center-mobile{
+        text-align: center;
+    }
+    .el-2-mobile{
+        display: block;
+    }
+    .header-content{
+        padding: 40px 30px 0;
+
+    }
+    .hang-thing{
+        display: none;
+    }
+    .hang-thing-mobile{
+        display: block;
+        align-items: center;
+    }
+    .hand-mobile{
+        width: 100%;
+    }
+    .hand{
+        display: none;
+    }
+    .experience{
+        background: none;
+    }
+    .experience-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        align-items: center;
+    }
+    .experience-info{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+    .platform-text{
+        order: 3;
+        text-align: center;
+
+}
+    .mobile-order{
+        order: 4;
+        text-align: center;
+    }
+    .platform-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        order: 2;
+    }
+    .save{
+        border-radius: 0;
+    }
+    footer{
+        display: none;
+    }
+    .el-2{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+
+    a.btn-link{
+        display: none;
+    }
+    .work{
+        order: 1;
+    }
+    .mobile-size{
+        width: 100%;
+        order: 4;
+    }
+    .mobile-order{
+        order: 4;
+    }
+    .create{
+        order: 1;
+        font-size: 30px;
+        align-items: center;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .discover{
+        order: 2;
+        font-size: 35px;
+        align-items: center;
+        line-height: 36px;
+        text-align: center;
+    }
+    .discover-info{
+        order: 3;
+        line-height: 36px;
+        text-align: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .save-download{
+        display: none;
+    }
+    .fotter-man{
+        text-align: center;
+        width: 100%;
+        z-index: 0;
+    }
+    .platform-mobile{
+        display: flex;
+        order: 2;
+    }
+    .platform-about{
+        display: flex;
+        order: 1;
+        justify-content: center;
+    }
+  .ellipse{
+      display: none;
+  }
+  .ellipse-3, .ellipse-4, .ellipse-5, .ellipse-6, .ellipse-7, .ellipse-8, .ellipse-9{
+      display: none;
+  }
+
+}
+
+ /** {*/
+ /*  outline: 5px solid black;*/
+ /*}*/
